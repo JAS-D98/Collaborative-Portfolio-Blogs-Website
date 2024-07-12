@@ -35,7 +35,7 @@ git clone "git@github.com:JAS-D98/Collaborative-Portfolio-Blogs-Website.git"
 npm i 
 ```
 
-### Note: All members are expected to work on their respectvive branch in this format
+### Note: All members are expected to work on their respective branches in this format
 Jasper:
 ```
 git checkout -b jasper/LandingPage
