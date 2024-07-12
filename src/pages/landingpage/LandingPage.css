@@ -1,0 +1,9 @@
+.landingPage{
+    padding: 1em 4em;
+}
+
+@media screen and (max-width:68.63em) {
+    .landingPage{
+        padding: 1em 2em;
+    } 
+}
