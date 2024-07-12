@@ -2,10 +2,10 @@
 
 # LOAD DISTRIBUTION
 
-Jasper - Landing Page
-Bridget- Work Page
-Abdi- Footer & Header & Contacts Page
-Julius- Blog Page
+- Jasper - Landing Page
+- Bridget- Work Page
+- Abdi- Footer & Header & Contacts Page
+- Julius- Blog Page
 
 ## COLOR SCHEME
     --crimson-color: #da515d;
