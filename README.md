@@ -15,14 +15,14 @@
 All default settings and css configurations are in the global css file.  
 
 ***DESKTOP***  
-Heading FontSize - 2em
-Subheadings: 1.5em
-NormalText: 1.125em  
+- Heading FontSize - 2em
+- Subheadings: 1.5em
+- NormalText: 1.125em  
 
 ***MOBILE***  
-Heading FontSize - 1.75em
-Subheadings: 1.25em
-NormalText: 1em
+- Heading FontSize - 1.75em
+- Subheadings: 1.25em
+- NormalText: 1em
 
 
 *Clone App*
@@ -34,3 +34,22 @@ git clone "git@github.com:JAS-D98/Collaborative-Portfolio-Blogs-Website.git"
 ```
 npm i 
 ```
+
+### Note: All members are expected to work on their respectvive branch in this format
+Jasper:
+```
+git checkout -b jasper/LandingPage
+```
+Bridget:
+```
+git checkout -b bridget/WorkPage
+```
+Abdi:
+```
+git checkout -b abdi/Header/Footer/ContactPage
+```
+Julius:
+```
+git checkout -b julius/BlogPage
+```
+
