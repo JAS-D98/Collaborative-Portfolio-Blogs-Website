@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Color Scheme */
+    --crimson-color: #da515d;
+    --dark-bold-color: #0d1117;
+
+    /* Desktop FontSize */
+    --mega-heading-desktop: 3em;
+    --title-font-size-desktop: 1.75em;
+    --subtitle-font-size-desktop: 1.5em;
+    --normaltext-font-size-desktop: 1.125em;
+
+    /* Mobile FontSize */
+    --mega-heading-mobile: 2em;
+    --title-font-size-mobile: 1.75em;
+    --subtitle-font-size-mobile: 1.25em;
+    --normaltext-font-size-mobile: 1em;
+}
