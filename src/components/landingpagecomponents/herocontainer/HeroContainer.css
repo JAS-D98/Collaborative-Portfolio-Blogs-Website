@@ -6,7 +6,9 @@
     justify-content: center;
     /* flex-wrap: wrap; */
     flex-direction: row;
+    padding: 1em 4em;
 }
+
 .landingHero h1{
     font-size: var(--mega-heading-desktop);
     text-transform: capitalize;
@@ -46,6 +48,7 @@
 @media screen and (max-width:68.63em) {
     .landingHero{
         flex-direction: column-reverse;
+        padding: 1em 2em;
     }
     .landingHeroLeft{
         width: 100%;
