@@ -1,0 +1,29 @@
+footer{
+  color:var(--dark-bold-color);
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.social-icons a{
+  color: var(--dark-bold-color);
+  font-size: 24px;
+  text-decoration: none;
+}
+.social-icons a:hover{
+  color: var(--crimson-color);
+}
+
+.copyright{
+  margin-top: 15px;
+}
