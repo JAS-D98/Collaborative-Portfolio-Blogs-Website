@@ -7,6 +7,7 @@ import ContactsPage from './pages/contactspage/ContactsPage'
 import Navbar from './components/navbarcomponents/Navbar'
 import Footer from './components/footercomponent/Footer'
 
+
 export default function App() {
   return (
     <>
