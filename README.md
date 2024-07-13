@@ -53,3 +53,4 @@ Julius:
 git checkout -b julius/BlogPage
 ```
 
+NOTE: All contributors are required to test their react applications
