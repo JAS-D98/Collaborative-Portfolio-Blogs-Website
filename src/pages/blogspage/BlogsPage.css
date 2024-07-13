@@ -1,0 +1,57 @@
+.Blog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+.Blog div{
+  width: 45%;
+  margin-bottom: 2rem;
+}
+.Blog div h1{
+  font-size: 2em;
+}
+.Blog div h3{
+  font-size: 1.6em;
+  margin-bottom: 0.5rem;
+}
+.Blog div h5{
+  margin-bottom: 1rem;
+  font-size: 1.125em;
+}
+.Blog div h5 span{
+  color: rgb(121, 122, 122);
+}
+.Blog div p{
+  margin-bottom: 1rem;
+}
+.Blog div hr{
+  height: 2px;
+  background-color: black;
+}
+
+@media screen and (max-width: 33.75em) {
+  .Blog div{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 26.875em) {
+  .Blog{
+    padding: 1rem;
+  }
+  .Blog div{
+    width: 100%;
+  }
+  .Blog div h1{
+    font-size: 1.75em;
+  }
+  .Blog div h3{
+    font-size: 1.25em;
+  }
+  .Blog div h5{
+    font-size:  1em;
+  }
+}
+
