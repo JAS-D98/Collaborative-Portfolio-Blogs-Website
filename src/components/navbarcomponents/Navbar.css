@@ -36,6 +36,7 @@ ul.main-nav li a, ul.mobile-nav li a {
     color: var(--dark-bold-color);
     text-decoration: none;
     padding: 10px 20px;
+    font-size: var(--mega-heading-mobile);
 }
 
 ul.main-nav li a.active, ul.mobile-nav li a.active {
