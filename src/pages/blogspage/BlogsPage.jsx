@@ -13,6 +13,7 @@ export default function BlogsPage() {
       <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit official consequat duis enim mollit. Exercitation veniam consequant sunt nostrud amet</p>
       <hr />
       </div>
+      
 
       <div>
       <h3>UI Interactions of the week</h3>

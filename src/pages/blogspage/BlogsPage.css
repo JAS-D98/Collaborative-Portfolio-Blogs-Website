@@ -31,6 +31,7 @@
   background-color: black;
 }
 
+
 @media screen and (max-width: 33.75em) {
   .Blog div{
     width: 80%;
