@@ -1,6 +1,6 @@
 import React from 'react'
 import "./BlogsPage.css"
-import blogs from '../../Data/Blogspage'
+import blogs from '../../data/Blogspage.js'
 
 const Blogcard = ({header, paragraph}) => {
   return(
