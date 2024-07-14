@@ -57,7 +57,7 @@
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-    border: 2px rgb(27, 194, 91) solid;
+    border:2px solid var( --crimson-color);
   }
   
   .form-control textarea {
@@ -69,20 +69,8 @@
     margin-top: 5px;
   }
   
-  button[type="submit"] {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-   margin-left: 50px;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #0056b3;
-  }
-  
+
+
   @media (max-width: 768px) {
     .contact-page-container {
       flex-direction: column;
@@ -91,10 +79,12 @@
   
     .contact-container {
       flex-direction: column;
+      
     }
   
     .contact-form-container {
       padding: 20px;
+    
     }
   }
   

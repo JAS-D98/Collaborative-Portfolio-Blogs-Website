@@ -27,22 +27,31 @@ ul.mobile-nav {
     top: 60px;
     right: 0;
     width: 100%;
-    background-color: #a3d7e0;
+    background-color:var(--crimson-color);
     text-align: center;
     padding-bottom: 5px;
 }
 
-ul.main-nav li a, ul.mobile-nav li a {
+ul.main-nav li a{
     color: var(--dark-bold-color);
     text-decoration: none;
     padding: 10px 20px;
-    font-size: var(--mega-heading-mobile);
+    font-size: var(--title-font-size-desktop);
+}
+ul.mobile-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: var(--title-font-size-desktop);
 }
 
-ul.main-nav li a.active, ul.mobile-nav li a.active {
+ul.main-nav li a.active {
     color: var(--crimson-color);
 }
 
+ul.mobile-nav li a.active{
+    color: var(--dark-bold-color);
+}
 .toggle {
     display: none;
     border: none;

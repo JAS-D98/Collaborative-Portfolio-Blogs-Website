@@ -12,7 +12,7 @@ const Navbar = () => {
       <section className='Navbar-section'>
         <nav className='main'>
         <ul className={click ? "mobile-nav" : "main-nav"} onClick={() => setClick(false)}>
-          <li><Link to= '/' className={location.pathname === '/' ? 'active' : ''}></Link></li>
+          <li><Link to= '/' className={location.pathname === '/' ? 'active' : ''}>Home</Link></li>
           <li><Link to='/blogs' className={location.pathname === '/blogs' ? 'active' : ''}>Blogs</Link></li>
           <li><Link to='/work'  className={location.pathname === '/work' ? 'active' : ''}>Works</Link></li>
           <li><Link to='/contact'  className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link></li>

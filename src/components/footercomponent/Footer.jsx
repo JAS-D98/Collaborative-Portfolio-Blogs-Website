@@ -8,10 +8,10 @@ const Footer = () => {
     <footer className='footer'>
       <div className='footer-container'>
         <div className='social-icons'>
-          <a href="https://facebook.com"><FaFacebook/></a>
-          <a href="https://twitter.com"><FaTwitter/></a>
-          <a href="https://instagram.com">< FaInstagram/></a>
-          <a href="https://linkedin.com">< FaLinkedin /></a>
+          <a href="https://facebook.com" className='icons'><FaFacebook/></a>
+          <a href="https://twitter.com" className='icons'><FaTwitter/></a>
+          <a href="https://instagram.com" className='icons'>< FaInstagram/></a>
+          <a href="https://linkedin.com" className='icons'>< FaLinkedin /></a>
         </div>
         <p>&copy; 2024. All rights reserved</p>
       </div>

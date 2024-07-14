@@ -3,7 +3,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import './ContactsPage.css'; 
 import contactImg from '../../assets/images/contactImg.jpg';
-
+import Button from '../../components/button/Button';
 const ContactsPage = () => {
   const validationSchema = Yup.object().shape({
     firstName: Yup.string()
@@ -31,10 +31,6 @@ const ContactsPage = () => {
     message: '',
   };
 
-  const handleSubmit = (values, { setSubmitting }) => {
-    console.log(values);
-    setSubmitting(false);
-  };
 
   return (
     <div className="contact-page-container">
@@ -46,9 +42,9 @@ const ContactsPage = () => {
         <Formik
           initialValues={initialValues}
           validationSchema={validationSchema}
-          onSubmit={handleSubmit}
+  
         >
-          {({ isSubmitting }) => (
+          {  (
             <Form>
               <div className="form-control">
                 <label htmlFor="firstName">First Name:</label>
@@ -80,9 +76,7 @@ const ContactsPage = () => {
                 <ErrorMessage name="message" component="div" className="error-message" />
               </div>
 
-              <button type="submit" disabled={isSubmitting}>
-                {isSubmitting ? 'Please wait...' : 'Submit'}
-              </button>
+             <Button title="Submit"/>
             </Form>
           )}
         </Formik>
