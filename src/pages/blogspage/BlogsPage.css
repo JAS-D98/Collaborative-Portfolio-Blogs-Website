@@ -32,6 +32,12 @@
 }
 
 
+@media screen and (max-width: 46.25em) {
+  .Blog div{
+    width: 60%;
+  }
+}
+
 @media screen and (max-width: 33.75em) {
   .Blog div{
     width: 80%;
