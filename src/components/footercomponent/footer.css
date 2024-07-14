@@ -13,7 +13,7 @@ footer{
 .social-icons{
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 20px;
 }
 .social-icons a{
   color: var(--dark-bold-color);
