@@ -1,7 +1,7 @@
 import React from 'react'
 import './FeauteredWorks.css'
 import WorkCard from '../../workcardcomponent/WorkCard'
-import { works } from '../../../data/landingpagedata/WorkData'
+import { works } from '../../../Data/landingpagedata/WorkData'
 export default function FeauteredWorks() {
   return (
     <div className='featured-container'>

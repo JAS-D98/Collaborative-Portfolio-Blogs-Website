@@ -1,7 +1,7 @@
 import React from 'react'
 import './RecentPosts.css'
 import BlogsCard from '../../blogspagecomponents/BlogsCard'
-import blogs from '../../../data/landingpagedata/LandingPage'
+import blogs from '../../../Data/landingpagedata/LandingPage'
 import { Link } from 'react-router-dom'
 export default function RecentPosts() {
   return (
