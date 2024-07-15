@@ -1,0 +1,17 @@
+.featured-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4em;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.featured-container p{
+    margin-top: 4%;
+}
+@media screen and (max-width:70em){
+    .featured-container{
+        align-items: center;
+    }
+}
