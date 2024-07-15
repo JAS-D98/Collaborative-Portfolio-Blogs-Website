@@ -2,3 +2,25 @@
     background: var(--slate-color);
     padding: 1em 4em;
 }
+
+.blogs-card-container{
+    display: flex;
+    gap: 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recent-posts-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0%;
+}
+
+@media screen  and (max-width:661px){
+    .blogs-card-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+}
